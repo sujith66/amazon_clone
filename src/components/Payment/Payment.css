@@ -1,0 +1,36 @@
+.payment {
+    background-color: white;
+}
+
+.payment__section {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.payment__checkout h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+.payment__title{
+    flex: 0.2;
+}
+
+.payment__address, .payment__items, .payment__details{
+    flex: 0.8;
+}
+.payment__details{
+    margin-left: 1em;
+}
+
+.payment__btn {
+    background-color: #f0c14b;
+    border: 1px solid;
+    margin-top: 15px;
+    width: 10rem;
+    min-width: 100px;
+}
